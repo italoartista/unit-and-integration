@@ -1,0 +1,29 @@
+{
+  "name": "unit-and-integration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "testNode": "node index.test.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/italoartista/unit-and-integration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/italoartista/unit-and-integration/issues"
+  },
+  "homepage": "https://github.com/italoartista/unit-and-integration#readme",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.17.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "supertest": "^7.0.0"
+  }
+}
